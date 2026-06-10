@@ -174,23 +174,28 @@ The Streamlit application provides:
 
 ## Machine Learning
 
-A Random Forest model was developed to explore the relationship between economic indicators and tourism arrivals.
+### Machine Learning
 
-Features:
+A small Machine Learning component was included to explore the relationship between economic indicators and tourism performance.
+
+Features used:
 
 * GDP Growth
 * GDP Per Capita
 * Inflation
 * Unemployment
-* FDI
+* Foreign Direct Investment (FDI)
 
 Target:
 
 * International Tourism Arrivals
 
-The model achieved an R² score of approximately 0.84.
+A Random Forest model was used as an exploratory approach and achieved an R² score of approximately 0.84.
 
-This section is exploratory and complements the broader economic and infrastructure analysis.
+It is important to note that the primary focus of this project is Data Engineering, data integration, and economic analysis rather than predictive modeling. The available dataset contains a limited number of yearly observations, making it unsuitable for building a robust production-grade forecasting model.
+
+For this reason, Machine Learning was included as a supporting analytical component rather than the main objective of the project.
+
 
 ---
 
@@ -216,7 +221,7 @@ morocco-afcon-worldcup-economic-pipeline/
 
 ## Future Improvements
 
-* Add additional tourism indicators.
+
 * Integrate live APIs.
 * Deploy the Streamlit dashboard to the cloud.
 * Expand infrastructure datasets.
